@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunger Hunter - Restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="nav-wrapper">
+            <div class="header-main-bar">
+                <a href="index.html" class="brand-logo">
+                    <img src="images/logo.png" alt="Hunger Hunter Logo">
+                </a>
+            </div>
+            <nav class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html" class="nav-link active">HOME</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+                    <li class="nav-item"><a href="#dishes" class="nav-link">FEATURED</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link">MENU</a></li>
+                    <li class="nav-item"><a href="#blogs" class="nav-link">BLOG</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">GALLERY</a></li>
+                    <li class="nav-item"><a href="#hours" class="nav-link">HOURS</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="#reservation" class="btn btn-nav">BOOK TABLE</a>
+                <div class="header-social">
+                    <a href="https://facebook.com" class="social-link" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" class="social-link" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com" class="social-link" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="hero" class="hero-section">
+        <div class="hero-wrapper">
+            <div class="hero-content">
+                <h1 class="hero-title"><span class="cursive-title">Welcome to</span> HUNGER HUNT</h1>
+                <p class="hero-slogan">Get the freshest ingredients from hunger hunt</p>
+            </div>
+            <div id="reservation" class="booking-bar">
+                <form class="booking-form">
+                    <div class="form-field">
+                        <select class="form-select">
+                            <option value="today">Date: Today</option>
+                            <option value="tomorrow">Date: Tomorrow</option>
+                            <option value="friday">Date: Friday Night</option>
+                            <option value="weekend">Date: Weekend Special</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <select class="form-select">
+                            <option value="1900">7:00 PM</option>
+                            <option value="2000" selected>8:00 PM</option>
+                            <option value="2100">9:00 PM</option>
+                            <option value="2200">10:00 PM</option>
+                            <option value="2300">11:00 PM</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <select class="form-select">
+                            <option value="2">2 People</option>
+                            <option value="4" selected>4 People</option>
+                            <option value="6">6 People</option>
+                            <option value="8">8 People</option>
+                            <option value="10">Party Table (10+)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-book">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="about-wrapper">
+            <div class="about-image-col">
+                <img src="images/food1.jpg" alt="About Hunger Hunt" class="about-img">
+            </div>
+            <div class="about-text-col">
+                <h2 class="section-title"><span class="cursive-title">About Us</span> THE MOST AWARDED RESTAURANT</h2>
+                <div class="divider dark-divider">
+                    <span class="divider-icon"></span>
+                </div>
+                <p class="about-description">
+                    At Hunger Hunt, every plate is crafted with genuine passion for exceptional gastronomy. We
+                    hand-select farm-fresh organic produce, ethically-sourced meats, and artisanal spices to bring you
+                    unforgettable flavor profiles.
+                </p>
+                <p class="about-description">
+                    Whether gathering for an intimate family celebration or sharing laughter over handcrafted cocktails
+                    with friends, our dedicated culinary team and warm ambiance guarantee a memorable dining journey.
+                </p>
+                <div class="about-actions">
+                    <a href="about.html" class="btn btn-primary">READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="dishes" class="dishes-section">
+        <div class="dishes-wrapper">
+            <div class="section-header">
+                <h2 class="section-title"><span class="cursive-title">Check</span> FEATURED DISHES</h2>
+            </div>
+            <div class="dishes-grid">
+                <article class="dish-card">
+                    <figure class="dish-figure">
+                        <img src="images/vegetable.jpg" alt="Italian Fresh Salad" class="dish-img">
+                    </figure>
+                    <div class="dish-body">
+                        <span class="dish-category">Salad</span>
+                        <h3 class="dish-name">Italian Fresh Salad</h3>
+                        <p class="dish-text">Italian fresh salad consists of ripe tomatoes, red onion, feta cheese, and
+                            kalamata olives.</p>
+                        <span class="dish-price">$12.00</span>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <figure class="dish-figure">
+                        <img src="images/non-veg1.jpg" alt="Blueberry Ice-Choco" class="dish-img">
+                    </figure>
+                    <div class="dish-body">
+                        <span class="dish-category">Desserts</span>
+                        <h3 class="dish-name">Blueberry Ice-Choco</h3>
+                        <p class="dish-text">Chilled velvety chocolate mousse crowned with organic blueberries and mint
+                            syrup.</p>
+                        <span class="dish-price">$12.00</span>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <figure class="dish-figure">
+                        <img src="images/chicken.jpg" alt="Glazed Honey Ribs" class="dish-img">
+                    </figure>
+                    <div class="dish-body">
+                        <span class="dish-category">Appetizers</span>
+                        <h3 class="dish-name">Glazed Honey Ribs</h3>
+                        <p class="dish-text">Tender oven-glazed ribs marinated with smoked paprika, wild thyme, and
+                            spiced honey.</p>
+                        <span class="dish-price">$14.00</span>
+                    </div>
+                </article>
+                <article class="dish-card">
+                    <figure class="dish-figure">
+                        <img src="images/buger.jpg" alt="Gourmet Brioche Burger" class="dish-img">
+                    </figure>
+                    <div class="dish-body">
+                        <span class="dish-category">Chef Special</span>
+                        <h3 class="dish-name">Gourmet Brioche Burger</h3>
+                        <p class="dish-text">Prime Angus beef patty topped with smoked cheddar, caramelized onions, and
+                            house remoulade.</p>
+                        <span class="dish-price">$16.00</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="hours" class="hours-section">
+        <div class="hours-wrapper">
+            <div class="hours-content">
+                <h2 class="section-title light-text"><span class="cursive-title">Time</span> OPEN AT</h2>
+                <div class="schedule-grid">
+                    <div class="schedule-block">
+                        <h4 class="schedule-days">Monday - Friday</h4>
+                        <p class="schedule-time">7:00 AM - 11:00 AM (Breakfast)</p>
+                        <p class="schedule-time">11:00 AM - 10:00 PM (Lunch / Dinner)</p>
+                    </div>
+                    <div class="schedule-block">
+                        <h4 class="schedule-days">Saturday - Sunday</h4>
+                        <p class="schedule-time">8:00 AM - 12:00 PM (Gourmet Brunch)</p>
+                        <p class="schedule-time">12:00 PM - 11:00 PM (Dinner & Drinks)</p>
+                    </div>
+                </div>
+                <div class="hours-contact">
+                    <span class="phone-number">+15 12456785 23</span>
+                    <a href="#reservation" class="btn btn-outline">Book Your Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="menu-section">
+        <div class="menu-wrapper">
+            <div class="section-header">
+                <h2 class="section-title"><span class="cursive-title">Discover</span> OUR STARTERS</h2>
+                <div class="divider dark-divider">
+                    <span class="divider-icon"></span>
+                </div>
+            </div>
+            <div class="menu-columns">
+                <div class="menu-col">
+                    <div class="menu-item">
+                        <img src="images/food1.jpg" alt="Soft-Boiled Organic Egg" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Soft-Boiled Organic Egg</h4>
+                            <span class="menu-item-desc">Served with warm toasted soldiers & sea salt</span>
+                        </div>
+                        <span class="menu-item-price">$5.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/springrollegg.jpg" alt="Scrambled Eggs in Puff Pastry" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Scrambled Eggs in Puff Pastry</h4>
+                            <span class="menu-item-desc">Tossed with sautéed wild chanterelles & chives</span>
+                        </div>
+                        <span class="menu-item-price">$9.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/special-dish.jpg" alt="Eggs Any Style" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Eggs Any Style</h4>
+                            <span class="menu-item-desc">Accompanied by golden homefries & brioche toast</span>
+                        </div>
+                        <span class="menu-item-price">$6.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/fishmeat.jpg" alt="Eggs Norwegian" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Eggs Norwegian</h4>
+                            <span class="menu-item-desc">Smoked fjord salmon with silky hollandaise</span>
+                        </div>
+                        <span class="menu-item-price">$8.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/chilly.jpg" alt="Truffle Garlic Bruschetta" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Truffle Garlic Bruschetta</h4>
+                            <span class="menu-item-desc">Charred sourdough with black summer truffle oil</span>
+                        </div>
+                        <span class="menu-item-price">$7.50</span>
+                    </div>
+                </div>
+                <div class="menu-col">
+                    <div class="menu-item">
+                        <img src="images/food2.jpg" alt="Smoked Salmon Carpaccio" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Smoked Salmon Carpaccio</h4>
+                            <span class="menu-item-desc">Thinly cut salmon with capers & fresh dill oil</span>
+                        </div>
+                        <span class="menu-item-price">$11.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/chicken.jpg" alt="Crispy Calamari Rings" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Crispy Calamari Rings</h4>
+                            <span class="menu-item-desc">Flash fried squid with lemon garlic aioli dip</span>
+                        </div>
+                        <span class="menu-item-price">$9.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/main-courses.jpg" alt="Artisan Fromage Platter" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Artisan Fromage Platter</h4>
+                            <span class="menu-item-desc">Selected aged cheeses with mission fig compote</span>
+                        </div>
+                        <span class="menu-item-price">$12.00</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/vegetable.jpg" alt="Roasted Heirloom Tomato Soup" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Roasted Heirloom Tomato Soup</h4>
+                            <span class="menu-item-desc">Velvety bisque with sweet basil & herb croutons</span>
+                        </div>
+                        <span class="menu-item-price">$6.50</span>
+                    </div>
+                    <div class="menu-item">
+                        <img src="images/buger.jpg" alt="Seared Wagyu Carpaccio" class="menu-thumb">
+                        <div class="menu-item-info">
+                            <h4 class="menu-item-title">Seared Wagyu Carpaccio</h4>
+                            <span class="menu-item-desc">A5 tenderloin cuts with baby arugula & pecorino</span>
+                        </div>
+                        <span class="menu-item-price">$13.50</span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu-actions">
+                <a href="menu.html" class="btn btn-primary">View Full Menu</a>
+            </div>
+        </div>
+    </section>
+    <section id="blogs" class="blogs-section">
+        <div class="blogs-wrapper">
+            <div class="section-header">
+                <h2 class="section-title"><span class="cursive-title">Check</span> OUR BLOGS</h2>
+                <div class="divider dark-divider">
+                    <span class="divider-icon"></span>
+                </div>
+            </div>
+            <div class="blogs-grid">
+                <article class="blog-card">
+                    <figure class="blog-figure">
+                        <img src="images/food3.jpg" alt="We love it when you love it" class="blog-img">
+                    </figure>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="meta-date">March 30, 2026</span>
+                            <span class="meta-author">by Gustave Berneit</span>
+                            <span class="meta-comments">2 comments</span>
+                        </div>
+                        <h3 class="blog-title"><a href="#blogs">We Love It When You Love It</a></h3>
+                        <p class="blog-excerpt">
+                            How did the hand pies look? Did you love the brownies? How many choux pastries did you enjoy
+                            in one sitting? Discover the secrets behind our most sought-after dessert selections.
+                        </p>
+                        <a href="#blogs" class="blog-more">Continue Reading →</a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <figure class="blog-figure">
+                        <img src="images/dessertcoffee.jpg" alt="How My Love of Sweet Turned" class="blog-img">
+                    </figure>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="meta-date">March 25, 2026</span>
+                            <span class="meta-author">by Gustave Berneit</span>
+                            <span class="meta-comments">4 comments</span>
+                        </div>
+                        <h3 class="blog-title"><a href="#blogs">How My Love of Sweet Turned Into Culinary Craft</a></h3>
+                        <p class="blog-excerpt">
+                            Explore how fresh garden ingredients and classic French pastry techniques come together in
+                            our test kitchen to invent mouthwatering appetizers and decadent savory treats.
+                        </p>
+                        <a href="#blogs" class="blog-more">Continue Reading →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="gallery-section">
+        <div class="gallery-header">
+            <h2 class="section-title"><span class="cursive-title">Discover</span> OUR GALLERY</h2>
+            <div class="divider dark-divider">
+                <span class="divider-icon"></span>
+            </div>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/food4.jpg" alt="Fresh Garden Veggies" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Green Veg</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/food1.jpg" alt="Juicy Meat Dish" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Juicy Non-Veg</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/platter.jpg" alt="Gourmet Platter" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Chef Platter</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/salad.jpg" alt="Organic Salad" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Green Salad</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/fishmeat.jpg" alt="Seafood Delicacy" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Fresh Catch</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/special-dish.jpg" alt="Signature Entree" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Special Dish</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/cocktails.jpg" alt="Handcrafted Drinks" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Cocktails</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/food2.jpg" alt="Gourmet Dessert" class="gallery-img">
+                <div class="gallery-overlay">
+                    <h4 class="gallery-item-title">Gourmet Treats</h4>
+                    <span class="icon-expand">+</span>
+                </div>
+            </div>
+        </div>
+        <div class="gallery-action">
+            <a href="#gallery" class="btn btn-primary">View Gallery</a>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="contact-wrapper">
+            <div class="section-header contact-header">
+                <h2 class="section-title"><span class="cursive-title">Get In Touch</span> CONTACT US</h2>
+                <p class="contact-subtitle">Have a question, feedback, or a reservation inquiry? Reach out to us and
+                    we'll be delighted to assist you.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-image-col">
+                    <div class="contact-image-card">
+                        <img src="images/dinning-table-room.jpg" alt="Hunger Hunter Restaurant Dining"
+                            class="contact-img">
+                        <div class="contact-image-overlay">
+                            <div class="contact-image-info">
+                                <h3 class="contact-info-title">Hunger Hunter Dining</h3>
+                                <p class="contact-info-text"><i class="fa-solid fa-location-dot"></i> PO Box 1612 Collin
+                                    Street, NYC</p>
+                                <p class="contact-info-text"><i class="fa-solid fa-phone"></i> (+801) - 2345 - 6789</p>
+                                <p class="contact-info-text"><i class="fa-solid fa-envelope"></i> support@hungerhunt.com
+                                </p>
+                                <div class="contact-hours-badge">
+                                    <i class="fa-solid fa-clock"></i>
+                                    <span>Mon - Sun: 11:00 AM - 11:00 PM</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-col">
+                    <div class="contact-form-card">
+                        <h3 class="form-title">Send Us A Message</h3>
+                        <p class="form-subtitle">Fill out the form below and we will get back to you shortly.</p>
+                        <form class="contact-form" action="#" method="post">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contact-name">Full Name <span class="required">*</span></label>
+                                    <input type="text" id="contact-name" name="name" class="contact-input"
+                                        placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-email">Email Address <span class="required">*</span></label>
+                                    <input type="email" id="contact-email" name="email" class="contact-input"
+                                        placeholder="Your Email" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contact-phone">Phone Number</label>
+                                    <input type="tel" id="contact-phone" name="phone" class="contact-input"
+                                        placeholder="(+801) 234-5678">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contact-subject">Subject</label>
+                                    <select id="contact-subject" name="subject" class="contact-input contact-select">
+                                        <option value="General Inquiry">General Inquiry</option>
+                                        <option value="Table Reservation">Table Reservation</option>
+                                        <option value="Private Events">Private Dining & Events</option>
+                                        <option value="Feedback">Feedback & Suggestions</option>
+                                        <option value="Catering">Catering Service</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-message">Message <span class="required">*</span></label>
+                                <textarea id="contact-message" name="message" class="contact-input contact-textarea"
+                                    rows="4" placeholder="How can we help you?" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-submit-contact">
+                                <span>Send Message</span>
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer id="footer" class="site-footer">
+        <div class="footer-wrapper">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4 class="footer-heading">Contact info</h4>
+                    <ul class="footer-contact-list">
+                        <li>
+                            <span class="contact-label">Location:</span>
+                            <span>PO Box 1612 Collin Street, NYC</span>
+                        </li>
+                        <li>
+                            <span class="contact-label">Phone:</span>
+                            <span>(+801) - 2345 - 6789</span>
+                        </li>
+                        <li>
+                            <span class="contact-label">Email:</span>
+                            <a href="mailto:support@hungerhunt.com">support@hungerhunt.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html#hero">FAQ</a></li>
+                        <li><a href="about.html">Delivery</a></li>
+                        <li><a href="index.html#dishes">Payment Options</a></li>
+                        <li><a href="contact.html">Returns & Refunds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Shop</h4>
+                    <ul class="footer-links">
+                        <li><a href="menu.html">Non-Veg</a></li>
+                        <li><a href="menu.html">Veg</a></li>
+                        <li><a href="menu.html">Salads</a></li>
+                        <li><a href="menu.html">Desserts</a></li>
+                        <li><a href="menu.html">Appetizers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">Information</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="index.html#blogs">Blogs</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4 class="footer-heading">My Account</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Your Account</a></li>
+                        <li><a href="index.html">Check Out</a></li>
+                        <li><a href="index.html">Login</a></li>
+                        <li><a href="index.html">Register</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col footer-col-wide">
+                    <div class="footer-social-section">
+                        <h4 class="footer-heading">Find Us On</h4>
+                        <div class="social-row">
+                            <a href="https://facebook.com" class="social-circle" target="_blank" rel="noopener"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="https://twitter.com" class="social-circle" target="_blank" rel="noopener"><i
+                                    class="fa-brands fa-x-twitter"></i></a>
+                            <a href="https://instagram.com" class="social-circle" target="_blank" rel="noopener"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="footer-bottom-wrapper">
+            <p class="copyright-text">© 2026 - Hunger Hunter Restaurant. All Rights Reserved.</p>
+        </div>
+    </div>
+</body>
+
+</html>
